@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+:root {
+    --text-color: #667085;
+    --title-color: #101828;
+    --main-color: #8E2424;
+  }
 
 *{
     margin: 0;
@@ -7,7 +12,7 @@
     font-family: 'Inter', sans-serif;
 }
 body{
-    padding: 0 7%;
+    padding: 0 7rem;
 }
 /* 
     HEADER 
@@ -17,7 +22,7 @@ header{
     padding: 1rem 0;
     align-items: center;
     justify-content: space-between;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .nav-container{
@@ -37,24 +42,50 @@ header{
 
 .nav-links a{
     text-decoration: none;
-    color: #667085;
+    color: var(--text-color);
 }
 
 /* Buttons */
 
 .btn{
-    padding: 10px 20px;
+    padding: 0.7rem 1.2rem;
     border: none;
 }
 .btn-cadastro{
     color: white;
-    background-color: #8E2424;
+    background-color: var(--main-color);
     border-radius: 8px;
 }
 .btn-entrar{
     background-color: white;
     color: #667085;
 }
-/* .light-text{
-    color: #667085;
-} */
+/* 
+    INTRO 
+*/
+.about-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem 0;
+}
+.about-us h2{
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--main-color);
+}
+.about-us span{
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--title-color);
+    padding: 1.5rem 0 ;
+    letter-spacing: -0.02em;
+}
+.about-us p{
+    font-size: 1.25rem;
+    color: var(--text-color);
+    line-height: 1.5;
+    text-align: center;
+    max-width: 60%;
+}
