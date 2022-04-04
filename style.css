@@ -63,29 +63,61 @@ header{
 /* 
     INTRO 
 */
-.about-us{
+#about-us{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 6rem 0;
 }
-.about-us h2{
+#about-us h2{
     font-size: 1rem;
     font-weight: 600;
     color: var(--main-color);
 }
-.about-us span{
+#about-us span{
     font-size: 3rem;
     font-weight: 600;
     color: var(--title-color);
     padding: 1.5rem 0 ;
     letter-spacing: -0.02em;
 }
-.about-us p{
+#about-us p{
     font-size: 1.25rem;
     color: var(--text-color);
     line-height: 1.5;
     text-align: center;
-    max-width: 60%;
+    max-width: 65%;
+ }
+ /*
+    METRICAS 
+*/
+#metricas{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 0 6rem;
 }
+#metricas div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 17rem;
+}
+#metricas h2{
+    font-size: 3.75rem;
+    font-weight: 600;
+    color: var(--main-color);
+}
+#metricas span{
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--title-color);
+    padding: .75rem 0;
+}
+#metricas p{
+    font-size: 1rem;
+    color: var(--text-color);
+    line-height: 1.5;
+ }
