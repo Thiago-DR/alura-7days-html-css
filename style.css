@@ -70,17 +70,18 @@ header{
     justify-content: center;
     padding: 6rem 0;
 }
-#about-us h2{
+#about-us span{
     font-size: 1rem;
     font-weight: 600;
     color: var(--main-color);
 }
-#about-us span{
+#about-us h1{
     font-size: 3rem;
     font-weight: 600;
     color: var(--title-color);
     padding: 1.5rem 0 ;
     letter-spacing: -0.02em;
+    text-align: center;
 }
 #about-us p{
     font-size: 1.25rem;
@@ -121,3 +122,39 @@ header{
     color: var(--text-color);
     line-height: 1.5;
  }
+
+ /* 
+    TALENTOS 
+*/
+#talentos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem 0 0;
+}
+#talentos span {
+    font-size: .875rem;
+    font-weight: 500;
+    color: var(--main-color);
+}
+#talentos h2{
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: var(--title-color);
+    padding: 1.25rem 0;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+#talentos p{
+    font-size: 1.25rem;
+    color: var(--text-color);
+    line-height: 1.5;
+}
+#talentos img{
+    width: 100%;
+}
+.team-img{
+    padding: 4rem 0;
+    max-width: 100%;
+}
