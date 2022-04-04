@@ -137,6 +137,9 @@ header{
     font-size: .875rem;
     font-weight: 500;
     color: var(--main-color);
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    padding: .5rem 1rem;
 }
 #talentos h2{
     font-size: 2.25rem;
