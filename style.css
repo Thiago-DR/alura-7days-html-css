@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 :root {
     --text-color: #667085;
     --title-color: #101828;
@@ -124,16 +124,19 @@ header{
  }
 
  /* 
-    TALENTOS 
+    VAGAS 
 */
-#talentos{
+
+/* TALENTOS */
+
+.talentos-area{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 6rem 0 0;
 }
-#talentos span {
+.talentos-area span{
     font-size: .875rem;
     font-weight: 500;
     color: var(--main-color);
@@ -141,7 +144,7 @@ header{
     border-radius: 16px;
     padding: .5rem 1rem;
 }
-#talentos h2{
+.talentos-area h2{
     font-size: 2.25rem;
     font-weight: 600;
     color: var(--title-color);
@@ -149,15 +152,50 @@ header{
     letter-spacing: -0.02em;
     text-align: center;
 }
-#talentos p{
+.talentos-area p{
     font-size: 1.25rem;
     color: var(--text-color);
     line-height: 1.5;
 }
-#talentos img{
+.talentos-area img{
     width: 100%;
 }
 .team-img{
     padding: 4rem 0;
     width: 100%;
 }
+/* VAGAS ABERTAS */
+.vagas-area{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 0 20%;
+}
+.vagas-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.vagas-dep{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.vaga-item{
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    padding: 1.5rem;
+}
+.vaga-nome{
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--title-color);
+}
+.vaga-info{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-color);
+    line-height: 1.5;
+}
+
+    
+
