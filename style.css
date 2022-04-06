@@ -12,7 +12,7 @@
     font-family: 'Inter', sans-serif;
 }
 body{
-    padding: 0 7rem;
+    margin: 0 7rem;
 }
 /* 
     HEADER 
@@ -48,7 +48,7 @@ header{
 /* Buttons */
 
 .btn{
-    padding: 0.7rem 1.2rem;
+    padding: .75rem 1rem;
     border: none;
 }
 .btn-cadastro{
@@ -248,4 +248,58 @@ header{
     font-weight: 400;
     color: var(--text-color);
     padding: .25rem 0 0;
+}
+/* 
+    FOOTER 
+*/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem 0;
+    margin: 0 -7rem;
+    background-color: #F9FAFB;
+}
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.newsletter-title{
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 2.75rem;
+    letter-spacing: -0.02em;
+    color: var(--title-color);
+    padding: 0 0 1.25rem;
+}
+.newsletter-text{
+    font-size: 1.25rem;
+    color: var(--text-color);
+    line-height: 1.5;
+}
+.newsletter-input{
+    padding: 2.5rem 0 0;
+    text-align: center;
+    width: 100%;
+}
+#email-input{
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    color: var(--text-color);
+    padding: .75rem 1rem;
+    margin: 0 1rem;
+    width: 50%;
+}
+.footer-text{
+    font-size: 1rem;
+    color: #98A2B3;
+    line-height: 1.5;
+    padding: 2rem 0 0;
 }
