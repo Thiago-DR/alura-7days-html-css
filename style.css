@@ -183,6 +183,7 @@ header{
 .vagas-dep{
     font-size: 1.25rem;
     font-weight: 500;
+    padding: 0 0 .5rem;
 }
 .vaga-item{
     border: 1px solid #EAECF0;
@@ -210,11 +211,14 @@ header{
 */
 #depoimentos{
     padding: 4rem;
+    margin: 0 0 6rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
 }
 .depoimento-title{
     font-size: .875rem;
